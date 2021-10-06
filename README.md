@@ -1,11 +1,11 @@
 # Yuri's VS Code Configuration
 
 * [Theme and Font](#theme-and-font)
-* [Microprocessor Development](#platformio)
+* [Microprocessor Development](#microprocessor-development-arduinoesp)
 * [C/C++ Development](#cc-development)
-* [Using zsh](#zsh)
+* [Using zsh](#enable-zsh-in-vs-code-terminal)
 * [Python Development](#python-development)
-* [Web Development](#web)
+* [Web Development](#web-development)
 * [List of All Extensions](#all-extensions)
 
 ---
