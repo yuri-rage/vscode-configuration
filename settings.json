@@ -1,0 +1,67 @@
+{
+    "editor.fontFamily":  "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 20,
+    "editor.rulers": [80],
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1500,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "typescript.suggest.paths": false,
+    "workbench.colorTheme": "RageQuit",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.list.smoothScrolling": true,
+    "C_Cpp.clang_format_fallbackStyle":
+        "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 80}",
+    "gitlens.defaultDateFormat": "DD MMM YYYY HH:mm",
+    "gitlens.defaultTimeFormat": "HH:mm",
+    "gitlens.defaultDateShortFormat": "YYYYMMDD",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "WSL2": {
+            "path": "C:\\Windows\\System32\\bash.exe",
+            "args": ["-c", "zsh"]
+        },
+        "MSYS2 (zsh)": {
+            "path": "C:\\msys64\\usr\\bin\\zsh.exe",
+            "args": ["--login", "-i"],
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1",
+                "MSYS2_PATH_TYPE": "inherit"
+                }
+        },
+        "MSYS2 (bash)": {
+            "path": "C:\\msys64\\usr\\bin\\bash.exe",
+            "args": ["--login", "-i"],
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1",
+                "MSYS2_PATH_TYPE": "inherit"
+                }
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "MSYS2 (zsh)",
+    "tabnine.experimentalAutoImports": true
+}
