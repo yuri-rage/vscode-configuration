@@ -92,7 +92,7 @@
         "terminal.integrated.defaultProfile.windows": "MSYS2 (zsh)",
 
 ---
-### Python Development:
+## Python Development
 * Install [Python](https://www.python.org/downloads/)
 * Install the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * Install the [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
