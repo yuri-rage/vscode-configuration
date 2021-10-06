@@ -14,7 +14,7 @@
 * Install the [Fira Code Font](https://github.com/tonsky/FiraCode/releases)
     * (on Windows, use the static *.ttf fonts, not the variable one)
     * Set the editor font family to `Fira Code`
-* Other `settings.json` entries (or use [my file](https://update-this-link)):
+* Other `settings.json` entries (or use [my file](https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/settings.json)):
 
         "editor.fontFamily":  "Fira Code",
         "editor.fontSize": 14,
@@ -68,14 +68,14 @@
 ## Enable zsh in VS Code Terminal
 (and make it kind of fancy...)
 * Make sure you have [MSYS2](https://www.msys2.org/) installed (see [C/C++ Development](#cc-development) above)
-* Install zsh, oh-my-zsh, and [my .zshrc](https://link-here):
+* Install zsh, oh-my-zsh, and [my .zshrc](https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/.zshrc):
 
         pacman -S zsh
         cd ~
         sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
         wget -O .zshrc https://need-to-update-this-link/.zsrhc
 
-* Put the following into VS Code's `settings.json` file under `"terminal.integrated.profiles.windows"` [(or use mine)](https://link-here):
+* Put the following into VS Code's `settings.json` file under `"terminal.integrated.profiles.windows"` [(or use mine)](https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/settings.json):
 
         "MSYS2 (zsh)": {
             "path": "C:\\msys64\\usr\\bin\\zsh.exe",
@@ -87,7 +87,7 @@
                 }
         }
 
-* To make this shell your default, add this to `settings.json` [(or use mine)](https://link-here):
+* To make this shell your default, add this to `settings.json` [(or use mine)](https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/settings.json):
 
         "terminal.integrated.defaultProfile.windows": "MSYS2 (zsh)",
 
