@@ -97,6 +97,7 @@
 * Install the [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * Install the [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 * Install the [Kite Extension](https://marketplace.visualstudio.com/items?itemName=kiteco.kite) (maybe?)
+* See my [vscode-python-bootstrap repository](https://github.com/yuri-rage/vscode-python-bootstrap)
 
 ---
 ## Web Development
