@@ -73,7 +73,8 @@
         pacman -S zsh
         cd ~
         sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-        wget -O .zshrc https://need-to-update-this-link/.zsrhc
+        wget -O .zshrc https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/.zshrc
+        wget -O .oh-my-zsh/themes/faster-agnoster.zsh-theme https://gist.githubusercontent.com/atrakeur/1885c4b279d73c4f84c5b1223b5981ac/raw/b72d8f7cd844c1c4fc2bd5b4f26a1f79cb69cb99/agnoster.zsh-theme
 
 * Put the following into VS Code's `settings.json` file under `"terminal.integrated.profiles.windows"` [(or use mine)](https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/settings.json):
 
@@ -83,7 +84,8 @@
             "env": {
                 "MSYSTEM": "MINGW64",
                 "CHERE_INVOKING": "1",
-                "MSYS2_PATH_TYPE": "inherit"
+                "MSYS2_PATH_TYPE": "inherit",
+                "MSYS": "winsymlinks:native"
                 }
         }
 
