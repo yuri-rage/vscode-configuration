@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily":  "Fira Code",
+    "editor.fontFamily": "Fira Code",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "workbench.iconTheme": "material-icon-theme",
@@ -9,15 +9,17 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1500,
     "editor.lineHeight": 20,
-    "editor.rulers": [80],
+    "editor.rulers": [
+        80
+    ],
     "editor.smoothScrolling": true,
     "editor.cursorSmoothCaretAnimation": true,
     "workbench.list.smoothScrolling": true,
     "editor.formatOnSave": true,
     "typescript.disableAutomaticTypeAcquisition": true,
-    "C_Cpp.clang_format_fallbackStyle":
-        "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 80}",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 80}",
     "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
     "workbench.colorTheme": "RageQuit",
     "gitlens.defaultDateFormat": "DD MMM YYYY HH:mm",
     "gitlens.defaultTimeFormat": "HH:mm",
@@ -40,30 +42,43 @@
         },
         "WSL2": {
             "path": "C:\\Windows\\System32\\bash.exe",
-            "args": ["-c", "zsh"]
+            "args": [
+                "-c",
+                "zsh"
+            ]
         },
         "MSYS2 (zsh)": {
             "path": "C:\\msys64\\usr\\bin\\zsh.exe",
-            "args": ["--login", "-i"],
+            "args": [
+                "--login",
+                "-i"
+            ],
             "env": {
                 "MSYSTEM": "MINGW64",
                 "CHERE_INVOKING": "1",
-                "MSYS2_PATH_TYPE": "inherit"
-                }
+                "MSYS2_PATH_TYPE": "inherit",
+                "MSYS": "winsymlinks:native"
+            }
         },
         "MSYS2 (bash)": {
             "path": "C:\\msys64\\usr\\bin\\bash.exe",
-            "args": ["--login", "-i"],
+            "args": [
+                "--login",
+                "-i"
+            ],
             "env": {
                 "MSYSTEM": "MINGW64",
                 "CHERE_INVOKING": "1",
-                "MSYS2_PATH_TYPE": "inherit"
-                }
+                "MSYS2_PATH_TYPE": "inherit",
+                "MSYS": "winsymlinks:native"
+            }
         }
     },
     "terminal.integrated.defaultProfile.windows": "MSYS2 (zsh)",
     "tabnine.experimentalAutoImports": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "C_Cpp.updateChannel": "Insiders"
 }
