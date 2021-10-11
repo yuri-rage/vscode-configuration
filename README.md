@@ -76,6 +76,8 @@
         wget -O .zshrc https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/.zshrc
         wget -O .oh-my-zsh/themes/faster-agnoster.zsh-theme https://gist.githubusercontent.com/atrakeur/1885c4b279d73c4f84c5b1223b5981ac/raw/b72d8f7cd844c1c4fc2bd5b4f26a1f79cb69cb99/agnoster.zsh-theme
 
+* Change line 5 in `~/.zshrc` to your own home directory instead of mine.
+
 * Put the following into VS Code's `settings.json` file under `"terminal.integrated.profiles.windows"` [(or use mine)](https://raw.githubusercontent.com/yuri-rage/vscode-configuration/master/settings.json):
 
         "MSYS2 (zsh)": {
